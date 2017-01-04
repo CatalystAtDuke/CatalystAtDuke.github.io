@@ -1378,8 +1378,8 @@ aside .thumb figure {
     position: relative;
     background-color: #FFF;
 	width: 100%;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	border-bottom: 1px solid #E6E9ED;
 }
 .navbar-collapse.collapse.stuck {
@@ -5071,7 +5071,7 @@ input:focus:-ms-input-placeholder {
 
 @media (min-width: 768px) {
 	.navbar-collapse.collapse {
-		padding-bottom: 30px;
+		padding-bottom: 5px;
 	}
 }
 

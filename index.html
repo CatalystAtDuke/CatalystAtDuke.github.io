@@ -42,7 +42,7 @@
 		<!-- ============================================================= HEADER ============================================================= -->
 		
 		<header>
-			<div class="navbar">
+			<div class="navbar" id = "top">
 				
 				<div class="navbar-header">
 					<div class="container">
@@ -82,27 +82,31 @@
 							<ul class="nav navbar-nav navbar-right">
 								
 								<li>
-									<a href="#">Home</a>
+									<a href="#top">Home</a>
 								</li>
 								
 								<li>
-									<a href="#">About</a>
+									<a href="#who-we-are">About</a>
 								</li>
 
 								<li>
-									<a href="#">Members</a>
+									<a href="#members">Members</a>
 								</li>
 
 								<li>
-									<a href="#">Events</a>
+									<a href="#events">Events</a>
 								</li>
 								
 								<li>
-									<a href="#">FAQ</a>
+									<a href="#calendar">Calendar</a>
+								</li>
+
+								<li>
+									<a href="#faq">FAQ</a>
 								</li>
 								
 								<li>
-									<a href="#">Contact</a>
+									<a href="#contact">Contact</a>
 								</li>
 							</ul><!-- /.nav -->
 							
@@ -344,8 +348,8 @@
 		
 		
 		<!-- ============================================================= FOOTER ============================================================= -->
-		
-		<footer class="dark-bg">
+		 
+		<footer class="dark-bg" id = "contact">
 			<div class="container inner">
 				<div class="row">
 					<div class="col-md-8 col-sm-9 center-block text-center">
@@ -441,6 +445,21 @@
 		<!--[if !IE]> -->
 			<script src="assets/js/onscroll.js"></script>
 		<!-- <![endif]-->
+
+		 <script>
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+    </script>
 		
 		
 	</body>
