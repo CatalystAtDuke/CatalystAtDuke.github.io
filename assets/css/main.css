@@ -1,3 +1,10 @@
+contact {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+
 /*
 Template: 		REEN – Made for Designers
 Description: 	Creative Portfolio Bootstrap 3 Template
@@ -59,10 +66,19 @@ body {
 	overflow-x: hidden !important;
 	height: auto !important;
 }
-p .contact{
+
+
+p .contact-icon{
 	/*  : */
 font-size: 55px;
-color: #5AA4DE;
+color: #5AA4DF;
+    
+}
+
+p .contact-text{
+	/*  : */
+font-size: 25px;
+        margin-left: 20px;
 }
 .csstransitions main [class*="col-"] {
 	opacity: 0;
@@ -106,23 +122,24 @@ h1{
 
 #who-we-are{
 /* Who We Are: */
-color: #5AA4DE;
+color: #5AA4DF;
 }
 
 h1.mainBody{
 	font-family: PTSans-NarrowBold;
 	font-size: 50px;
-	color: #5AA4DE;
+	color: #5AA4DF;
+    text-transform: uppercase
 }
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: PTSans-NarrowBold;
     font-weight: 700;
 	letter-spacing: 0.025em;
-    color: #506A85;
+    color: #5AA4DF;
     margin-top: 0;
 	/*word-wrap: break-word;*/
 }
@@ -308,6 +325,7 @@ p + h3 {
 .text-small {
 	font-size: 16px;
 	line-height: 160%;
+    color: #878787;
 }
 .text-normal {
 	font-size: inherit;
@@ -1387,9 +1405,9 @@ aside .thumb figure {
 	top: 0;
 	padding-top: 0;
 	padding-bottom: 0;
-	-webkit-box-shadow: 0 10px 10px rgba(0,0,0,0.1);
-	   -moz-box-shadow: 0 10px 10px rgba(0,0,0,0.1);
-			box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+	   -moz-box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+			box-shadow: 0 5px 5px rgba(0,0,0,0.1);
 }
 .navbar-collapse.collapse.stuck .navbar-brand img {
 	max-height: 20px;
