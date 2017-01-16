@@ -75,10 +75,16 @@ color: #5AA4DF;
     
 }
 
-p .contact-text{
+.send-text{
+	/*  : */
+font-size: 30px;
+    font-weight: bold;
+}
+
+.contact-text{
 	/*  : */
 font-size: 25px;
-        margin-left: 20px;
+    margin-left: 25px;
 }
 .csstransitions main [class*="col-"] {
 	opacity: 0;
@@ -456,9 +462,6 @@ main header + * {
 }
 .center-block {
 	float: none;
-}
-.center-cal {
-    text-align: center;
 }
 .height-xs {
 	height: 30vh;

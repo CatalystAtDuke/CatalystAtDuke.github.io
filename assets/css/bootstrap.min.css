@@ -245,7 +245,7 @@ th {
     }
     a,
     a:visited {
-        text-decoration: underline
+        text-decoration: underline;
     }
     a[href]:after {
         content: " (" attr(href) ")"
