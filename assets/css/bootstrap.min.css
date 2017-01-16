@@ -6527,7 +6527,7 @@ button.close {
 }
 
 .modal-open {
-    overflow: hidden
+    overflow: hidden;
 }
 
 .modal {
@@ -6557,7 +6557,7 @@ button.close {
     -webkit-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
     -o-transform: translate(0, 0);
-    transform: translate(0, 0)
+    transform: translate(0, 0);
 }
 
 .modal-open .modal {
@@ -6568,7 +6568,7 @@ button.close {
 .modal-dialog {
     position: relative;
     width: auto;
-    margin: 10px
+    margin: 10px;
 }
 
 .modal-content {
@@ -6605,7 +6605,6 @@ button.close {
 .modal-header {
     min-height: 16.43px;
     padding: 15px;
-    border-bottom: 1px solid #e5e5e5
 }
 
 .modal-header .close {
@@ -6652,7 +6651,7 @@ button.close {
 @media (min-width:768px) {
     .modal-dialog {
         width: 600px;
-        margin: 30px auto
+        margin: 10vh auto
     }
     .modal-content {
         -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);

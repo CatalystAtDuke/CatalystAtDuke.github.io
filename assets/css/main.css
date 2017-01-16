@@ -67,6 +67,77 @@ body {
 	height: auto !important;
 }
 
+#name{
+	/* Yoon Ko: */
+	font-family: PTSans-Bold;
+	color: #5AA4DE;
+	letter-spacing: 7px;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+#infoCard{
+	/* Class of 2019 Founde: */
+font-family: PTSans-Bold;
+font-size: 20px;
+color: #878787;
+}
+
+#blurb{
+	/* Lorem ipsum dolor si: */
+font-family: PTSans-Regular;
+font-size: 15px;
+color: #878787;
+}
+
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+	#name{
+		font-size:25px;
+	}
+	#infoCard{
+		font-size: 12px;
+	}
+	#blurb{
+		font-size: 10px;
+	}
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+	#name{
+		font-size:28px;
+	}
+	#infoCard{
+		font-size: 15px;
+	}
+	#blurb{
+		font-size: 13px;
+	}
+}
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+	#name{
+		font-size:32spx;
+	}
+	#infoCard{
+		font-size: 18px;
+	}
+	#blurb{
+		font-size: 15px;
+	}
+}
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+	#name{
+		font-size:37px;
+	}
+	#infoCard{
+		font-size: 20px;
+	}
+	#blurb{
+		font-size: 15px;
+	}
+}
 
 p .contact-icon{
 	/*  : */
@@ -5891,64 +5962,3 @@ a.changecolor {
 		max-height: 20px;
 	}
 }
-
-.modal-dialog {
-    position: fixed;
-    font-family: Arial, Helvetica, sans-serif;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0,0,0,0.3);
-    z-index: 99999;
-    opacity:0;
-    color: black;
-    -webkit-transition: opacity 100ms ease-in;
-    -moz-transition: opacity 100ms ease-in;
-    transition: opacity 100ms ease-in;
-    pointer-events: none;
-}
-
-.modal-dialog.show{
-    opacity:1;
-    pointer-events: auto;
-}
-
-.modal-dialog:target {
-    opacity:1;
-    pointer-events: auto;
-}
-
-.modal-dialog div {
-    width: 230px;
-    position: relative;
-    margin: 10% auto;
-    padding: 16px 20px 21px 20px;
-    border-radius: 4px;
-    background: #fff;
-    border: 2px white solid;
-}
-
-.modal-dialog p {
-    color: black;
-    text-shadow: none;
-    text-transform: none;
-    font-size: 14px;
-}
-.close {
-    background: black;
-    color: white;
-    line-height: 24px;
-    position: absolute;
-    right: -12px;
-    text-align: center;
-    top: -10px;
-    width: 26px;
-    text-decoration: none;
-    font-weight: bold;
-    border: 1px solid #666;
-    border-radius: 12px;
-    box-shadow: 1px 1px 3px #000;
-}
-
-.close:hover { background: #aaa; }
