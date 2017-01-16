@@ -222,7 +222,7 @@
 							<ul class="items col-4">
 								
 								<li class="item thumb interactive">
-									<a href="portfolio-post.html">
+									<a href="javascript:;" id="kiyoonkoClick">
 										<figure>
 											<figcaption class="text-overlay">
 												<div class="info">
@@ -511,6 +511,13 @@
 						</div><!-- /.col -->
 					</div><!-- /.row -->
 				</div><!-- /.container -->
+				<div id="kiyoonko" class="modal-dialog">
+    				<div>
+      					<a href="#close" title="Close" class="close">x</a>
+      					<h2>Hello!</h2>
+      					<p>You can display any information you want here!</p>
+    				</div>
+ 				</div>
 			</section>
 			
 			<!-- ============================================================= SECTION – GET IN TOUCH : END ============================================================= -->
@@ -666,41 +673,22 @@
 		<!-- <![endif]-->
 
 		 <script>
-    $('nav a').on('click', function() {
+    $(function() {
+	  $('a[href*="#"]:not([href="#"])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html, body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	  });
+	});
+ </script>
 
-    var scrollAnchor = $(this).attr('data-scroll'),
-        scrollPoint = $('section[data-anchor="' + scrollAnchor + '"]').offset().top - 28;
-
-    $('body,html').animate({
-        scrollTop: scrollPoint
-    }, 500);
-
-    return false;
-
-})
-
-
-$(window).scroll(function() {
-    var windscroll = $(window).scrollTop();
-    if (windscroll >= 100) {
-        $('nav').addClass('fixed');
-        $('.wrapper section').each(function(i) {
-            if ($(this).position().top <= windscroll - 20) {
-                $('nav a.active').removeClass('active');
-                $('nav a').eq(i).addClass('active');
-            }
-        });
-
-    } else {
-
-        $('nav').removeClass('fixed');
-        $('nav a.active').removeClass('active');
-        $('nav a:first').addClass('active');
-    }
-
-}).scroll();
-    </script>
-		
 		
 	</body>
 </html>
