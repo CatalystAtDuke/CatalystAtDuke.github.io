@@ -457,6 +457,9 @@ main header + * {
 .center-block {
 	float: none;
 }
+.center-cal {
+    text-align: center;
+}
 .height-xs {
 	height: 30vh;
 }
