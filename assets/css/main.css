@@ -2700,7 +2700,6 @@ blockquote:before {
 	bottom: 0;
 	left: 0;
     z-index: 100;
-	padding: 10%;
 	font: 0px/0 a; /* remove the gap between inline(-block) elements */
     background-color: rgba(26,187,156, 0.9);
     -webkit-transition: all 200ms ease-out;
