@@ -4,10 +4,9 @@ contact {
     
 }
 
-@font-face{
-	font-family: "PT Sans Narrow";
-	src: url("assets/fonts/PTSans-Narrow");
-}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|PT+Sans+Narrow');
+
 
 
 /*
