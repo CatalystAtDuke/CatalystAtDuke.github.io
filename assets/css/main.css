@@ -58,7 +58,7 @@ iframe {
     color: #506A85;
 }
 body {
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     background-color: #283645;
     color: #73879C;
     font-size: 18px;
@@ -197,7 +197,7 @@ a:focus {
 }
 h1{
 	/* C A T A L Y S T: */
-	font-family: Montserrat-Bold;
+	font-family: Montserrat-Bold, PTSans-Bold;
 	font-size: 75px;
 	color: #FFFFFF;
 	letter-spacing: 7px;
@@ -209,7 +209,7 @@ color: #5AA4DF;
 }
 
 h1.mainBody{
-	font-family: PTSans-NarrowBold;
+	font-family: PTSans-Bold;
 	font-size: 50px;
 	color: #5AA4DF;
     text-transform: uppercase
@@ -219,7 +219,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: PTSans-NarrowBold;
+    font-family: PTSans-Bold;
     font-weight: 700;
 	letter-spacing: 0.025em;
     color: #5AA4DF;
@@ -377,7 +377,7 @@ footer ul.contacts li {
 	margin-top: 50px;
 	margin-bottom: 0;
 	/* Duke University’s Fi: */
-	font-family: PTSans-NarrowBold;
+	font-family: PTSans-Bold;
 	font-size: 30px;
 	color: #FFFFFF;
 	-webkit-transition: font 200ms ease-out, margin 200ms ease-out;
