@@ -1718,7 +1718,7 @@ aside .thumb figure {
     background: #1ABB9C;
     padding: 11px 20px 13px;
 	margin: 15px 0;
-	font-family: 'PT Sans Narrow', sans-serif;
+	font-family: 'PT Sans', sans-serif;
     font-weight: 700;
     font-size: 14px;
 	letter-spacing: 0.02em;
@@ -1950,7 +1950,7 @@ aside .thumb figure {
 .btn-share-xs p {
 	position: absolute;
 	height: 1.1em;
-	font-family: 'PT Sans Narrow', sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	line-height: 100%;
 	color: #FFF;
 	margin: auto;
@@ -2158,7 +2158,7 @@ p .btn {
 	border-top-color: #1ABB9C;
 }
 .tabs-side .tab a div {
-	font-family: 'PT Sans Narrow', sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	font-size: 40px;
 	line-height: 100%;
 	font-weight: 200;
@@ -2217,7 +2217,7 @@ p .btn {
 	overflow: hidden;
 }
 .tabs-top .tab a div {
-	font-family: 'PT Sans Narrow', sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	font-size: 40px;
 	line-height: 100%;
 	font-weight: 200;
@@ -2290,7 +2290,7 @@ p .btn {
 	overflow: hidden;
 }
 .tabs-circle-top .tab a div {
-	font-family: 'PT Sans Narrow', sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	font-size: 40px;
 	line-height: 100%;
 	font-weight: 200;
@@ -2515,7 +2515,7 @@ blockquote:before {
 	border-color: inherit !important;
 }
 .panel-title {
-	font-family: 'PT Sans Narrow', sans-serif;
+	font-family: 'PT Sans', sans-serif;
     font-size: 15px;
 	line-height: 1.42857;
     font-weight: 700;
@@ -2819,7 +2819,7 @@ blockquote:before {
 	vertical-align: middle;
 	width: 100%;
 	height: auto;
-	font-family: 'PT Sans Narrow', sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	font-size: 14px;
 	line-height: 22px;
 	/*color: #FFF;*/
