@@ -137,15 +137,19 @@ button,
 input,
 select,
 textarea {
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Varela Round', 'Open Sans', sans-serif;
 }
 
+@font-face {
+    font-family: 'Varela Round';
+    src: url(VarelaRound-Regular.ttf) format('truetype');
+}
 
 /* * Addresses margins handled incorrectly in IE 6/7. */
 
 body {
     margin: 0;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Varela Round', 'Open Sans', sans-serif;
 }
 
 
