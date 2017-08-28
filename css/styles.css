@@ -142,7 +142,12 @@ textarea {
 
 @font-face {
     font-family: 'Varela Round';
-    src: url(VarelaRound-Regular.ttf) format('truetype');
+    src: url('/fonts/VarelaRound-Regular-webfont.eot');
+    src: url('/fonts/VarelaRound-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/VarelaRound-Regular-webfont.woff2') format('woff2'),
+         url('/fonts/VarelaRound-Regular-webfont.woff') format('woff'),
+         url('/fonts/VarelaRound-Regular-webfont.ttf') format('truetype'),
+         url('/fonts/VarelaRound-Regular-webfont.svg#varela_roundregular') format('svg');
 }
 
 /* * Addresses margins handled incorrectly in IE 6/7. */
