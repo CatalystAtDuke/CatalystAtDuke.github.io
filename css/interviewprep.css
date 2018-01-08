@@ -199,7 +199,8 @@ header h2 {
 /** body **/
 section#body {
 	padding: 0;
-	background: #0000CD;
+  background-image: url(../img/motherboard.png)
+	/*background: #0000CD;*/
 }
 
 .logo-sub {
@@ -216,6 +217,11 @@ section#body {
     margin: 0.67em 0;
 }
 
+/** email protection **/
+.reverse {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
 
 /** content+sidebar styles **/
 section#content {
