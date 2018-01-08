@@ -199,7 +199,9 @@ header h2 {
 /** body **/
 section#body {
 	padding: 0;
-  background-image: url(../img/motherboard.png)
+  background-image: url(../img/motherboard.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 	/*background: #0000CD;*/
 }
 
