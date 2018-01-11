@@ -311,7 +311,7 @@ article .article-info a {
 .card-section {
 	width: 100%;
 	height: 600px;
-	background-image: url(../img/members/bobbywang.png);
+	background-image: url(../img/instructors/bobby.jpg);
 	background-size: cover;
 	background-position: center;
 	padding: 0 !important;
@@ -319,15 +319,15 @@ article .article-info a {
 }
 
 .card-2 {
-	background-image: url(../img/members/ashkastephen.png);
+	background-image: url(../img/instructors/ashka.jpg);
 }
 
 .card-3 {
-	background-image: url(../img/members/gengsng.png);
+	background-image: url(../img/instructors/geng.jpg);
 }
 
 .card-4 {
-	background-image: url(../img/members/simransingh.png);
+	background-image: url(../img/instructors/simran.jpg);
 }
 
 .card-hover {
